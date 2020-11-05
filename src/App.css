@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+}
+
+h1{
+font-style: normal;
+font-weight: 900 !important;
+font-size: 62px !important;
+line-height: 84px;
+
+}
+
+#home{
+  min-height: 100vh;
+  background: url("/assets/homeBg.png") no-repeat right top, url("/assets/bgElement.svg") no-repeat 10% 15%;
+  background-size: 120vh, 10%;
+}
+
+button {
+  z-index: 0 !important;
+}
+
+
+#about{
+  background-color: #F8F7F7;  
+}
+
+#share {
+  min-height: 100vh;
+  padding: 20vh 0px;
+  background: url("/assets/shareBgTeal.svg") no-repeat right 10%, url("/assets/shareBgPink.svg") no-repeat left bottom;
+  background-size: 140px;
+}
+
+#homeSignUp {
+  min-height: 100vh;
+  /* padding: 20vh 0px; */
+  background: url("/assets/AuthLady.png") no-repeat right bottom;
+  background-size: 40%;
+}
+.section {
+  min-height: 70vh;
+  padding: 15vh 0px;
+}
+
+.img-resized {
+  width: 70%;
+  height: auto;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5 {
+  margin: 20px 0px;
+}
+
+footer ul {
+  font-size: 30px;
+  margin: 0 auto
+}
+
+.nav-wrapper {
+  padding: 10px 8%;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px
+}
+
+.forum-list{
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.create-forum {
+  position: fixed;
+  bottom: 10px;
+}
+
+.btn-rounded {
+  border-radius: 80px;
+}
+
+/* .forum-text, .forum-button {
+  position: fixed;
+  bottom: 10px
+} */
+
+.forum-content{
+  margin: 10px;
+}
+
+/* @media(max-width: 993px) {
+  #about p {
+     text-align: 
+  }
+} */
+
+.nav-item {
+  color: #000 !important;
+}

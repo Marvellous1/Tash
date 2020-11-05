@@ -1,0 +1,7 @@
+{
+    "editor.tabSize": 2,
+    "workbench.editor.closeOnFileDelete": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "git.ignoreLimitWarning": true
+}
